@@ -1,0 +1,6 @@
+framework module SimpleExtend {
+  umbrella header "SimpleExtend-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Core_Main",
+  "version": "0.1.0",
+  "summary": "A short description of Core_Main.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/95286760/Core_Main",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "95286760": "lasyquan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/95286760/Core_Main.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Core_Main/Classes/**/*",
+  "resource_bundles": {
+    "Core_Main": [
+      "Core_Main/Assets/**/*"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module Core_Main {
+  umbrella header "Core_Main-umbrella.h"
+
+  export *
+  module * { export * }
+}

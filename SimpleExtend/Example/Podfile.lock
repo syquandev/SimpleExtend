@@ -1,0 +1,56 @@
+PODS:
+  - Core_Main (0.1.0)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SimpleExtend (0.1.0):
+    - Core_Main
+    - IGListKit
+    - RxCocoa
+    - RxSwift
+
+DEPENDENCIES:
+  - Core_Main (from `/Applications/English Everyday Online/Modules/Core/Core_Main`)
+  - IGListKit
+  - RxCocoa
+  - RxGesture
+  - RxSwift
+  - SimpleExtend (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - IGListDiffKit
+    - IGListKit
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  Core_Main:
+    :path: "/Applications/English Everyday Online/Modules/Core/Core_Main"
+  SimpleExtend:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Core_Main: 5ed7cd849ba3e3ec6b7b74c631d5fd83b4d25d70
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SimpleExtend: 5457ea11946e8f7a58244ddadde9039beb3a2e56
+
+PODFILE CHECKSUM: 8475c7d239e67786e8221e54843437d46a0721f5
+
+COCOAPODS: 1.11.3

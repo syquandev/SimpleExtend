@@ -1,0 +1,41 @@
+{
+  "name": "SimpleExtend",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleExtend.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/95286760/SimpleExtend",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "95286760": "syquandev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/95286760/SimpleExtend.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SimpleExtend/Classes/**/*",
+  "resource_bundles": {
+    "SimpleExtend": [
+      "SimpleExtend/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "IGListKit": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "Core_Main": [
+
+    ]
+  }
+}

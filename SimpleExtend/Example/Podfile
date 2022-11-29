@@ -1,0 +1,17 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SimpleExtend_Example' do
+  pod 'SimpleExtend', :path => '../'
+
+  target 'SimpleExtend_Tests' do
+    inherit! :search_paths
+
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'RxGesture'
+    pod 'IGListKit'
+    pod 'Core_Main',  :path => '/Applications/English Everyday Online/Modules/Core/Core_Main'
+  end
+end
