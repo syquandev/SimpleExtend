@@ -22,7 +22,7 @@ pod 'SimpleExtend'
 
 ## Author
 
-95286760, syquandev@gmail.com
+syquandev@gmail.com
 
 ## License
 
